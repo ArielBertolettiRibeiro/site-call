@@ -23,7 +23,7 @@ public class UserService {
 
     public UserResponseDTO findByIdUser(Long id) {
         User user = repository.findById(id)
-                .orElseThrow(() -> new UserNotFoundException("User cannot found!"));
+                .orElseThrow(() -> new UserNotFoundException("User not found!"));
 
         return mapper.toResponse(user);
     }

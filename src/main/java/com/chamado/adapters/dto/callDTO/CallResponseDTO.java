@@ -1,5 +1,6 @@
 package com.chamado.adapters.dto.callDTO;
 
+import com.chamado.adapters.dto.commentDTO.CommentResponseDTO;
 import com.chamado.adapters.dto.userDTO.UserResponseDTO;
 import com.chamado.domain.entities.Comment;
 import com.chamado.domain.enums.Priority;
@@ -24,5 +25,5 @@ public class CallResponseDTO {
     private LocalDateTime closingDate;
     private Priority priority;
     private Status status;
-    private List<Comment> comments;
+    private List<CommentResponseDTO> comments;
 }

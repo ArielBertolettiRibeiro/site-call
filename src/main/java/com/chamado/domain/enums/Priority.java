@@ -1,5 +1,8 @@
 package com.chamado.domain.enums;
 
+import lombok.Getter;
+
+@Getter
 public enum Priority {
 
     LOW(1, "Baixa"),

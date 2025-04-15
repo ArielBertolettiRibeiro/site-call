@@ -1,6 +1,7 @@
 package com.chamado.adapters.dto.userDTO;
 
 import com.chamado.adapters.dto.callDTO.CallResponseDTO;
+import com.chamado.adapters.dto.commentDTO.CommentResponseDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
